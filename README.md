@@ -1,5 +1,5 @@
 
-# Daily Expenses Sharing Application
+# Expencse Manager Project
 
 ## Objective:
 Design and implement a backend for a daily-expenses sharing application. This 
