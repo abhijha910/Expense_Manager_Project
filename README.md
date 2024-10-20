@@ -1,39 +1,46 @@
 
 # Expencse Manager Project
 
-## Objective:
-Design and implement a backend for a daily-expenses sharing application. This 
-application allows users to add expenses and split them based on three 
-different methods: exact amounts, percentages, and equal splits. The 
-application manages user details, validates inputs, and generates 
-downloadable balance sheets.
+## Overview
+The **Daily Expenses Sharing Application** is a backend application designed to help users manage and share their daily expenses. Users can add expenses, split costs using different methods, and generate balance sheets for easy tracking of expenses.
 
-## Features:
-- User management (Create, retrieve user details)
-- Expense management (Add, split, retrieve expenses)
-- Balance sheet generation
-- API Endpoints
-  - Create User
-  - Add Expense
-  - Retrieve Expenses
-  - Download Balance Sheet
-- Validation for user inputs and expense splits
+## Objective
+To create a user-friendly backend for a daily-expenses sharing application that allows users to efficiently manage their expenses and share costs with others.
 
-## Setup Instructions:
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Run database migrations with `python manage.py migrate`.
-4. Start the server using `python manage.py runserver`.
+## Features
+- **User Management**
+  - Create and retrieve user details.
+- **Expense Management**
+  - Add expenses.
+  - Split expenses based on:
+    - Exact amounts.
+    - Percentages.
+    - Equal splits.
+  - Retrieve expenses.
+- **Balance Sheet Generation**
+  - Generate and download balance sheets.
+- **API Endpoints**
+  - Create User: `/api/users/`
+  - Add Expense: `/api/expenses/`
+  - Retrieve Expenses: `/api/expenses/`
+  - Download Balance Sheet: `/api/expenses/download/`
+- **Input Validation**
+  - Validates user inputs and expense splits for accuracy.
 
-## API Endpoints:
-- `/api/users/` : Create or retrieve users.
-- `/api/expenses/` : Add or retrieve expenses.
-- `/api/expenses/download/` : Download balance sheet.
+## Setup Instructions
 
-## Requirements:
+### Prerequisites
+Ensure you have the following installed:
 - Python 3.x
 - Django
 - Django REST Framework
+
+### Clone the Repository
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/your-username/daily-expenses-sharing-app.git
+cd daily-expenses-sharing-app
+
 
 ## Bonus Features:
 - Authentication and authorization
