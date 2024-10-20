@@ -22,6 +22,14 @@ To create a user-friendly backend for a daily-expenses sharing application that 
   - Retrieve Expenses: `/api/expenses/`
   - Download Balance Sheet: `/api/expenses/download/`
 - **Input Validation**: Validates user inputs and expense splits for accuracy.
+# Screenshots
+Admin Login Page
+<img src="Snapshot_Running_Project/Screenshot 2024-10-20 144740.jpg" alt="Admin Login Page" width="600"/>
+
+After Login
+          <img src="Snapshot_Running_Project/Screenshot 2024-10-20 150747.jpg" alt="After Login" width="600"/>
+
+
 
 ## Setup Instructions
 ### Prerequisites
@@ -36,13 +44,6 @@ Clone the repository to your local machine:
 git clone https://github.com/abhijha910/Expense_Manager_Project.git
 cd Expense_Manager_Project
 ```
-# Screenshots
-Admin Login Page
-<img src="Snapshot_Running_Project/Screenshot 2024-10-20 144740.jpg" alt="Admin Login Page" width="600"/>
-
-After Login
-     <img src="Snapshot_Running_Project/Screenshot 2024-10-20 150747.jpg" alt="After Login" width="600"/>
-
 
 ### Install Dependencies
 Install the required dependencies:
