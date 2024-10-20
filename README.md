@@ -24,7 +24,7 @@ To create a user-friendly backend for a daily-expenses sharing application that 
 - **Input Validation**: Validates user inputs and expense splits for accuracy.
 # Screenshots
 Admin Login Page
-<img src="Snapshot_Running_Project/Screenshot 2024-10-20 144740.jpg" alt="Admin Login Page" width="600"/>
+     <img src="Snapshot_Running_Project/Screenshot 2024-10-20 144740.jpg" alt="Admin Login Page" width="600"/>
 
 After Login
           <img src="Snapshot_Running_Project/Screenshot 2024-10-20 150747.jpg" alt="After Login" width="600"/>
