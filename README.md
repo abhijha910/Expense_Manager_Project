@@ -26,6 +26,12 @@ To create a user-friendly backend for a daily-expenses sharing application that 
   - Download Balance Sheet: `/api/expenses/download/`
 - **Input Validation**
   - Validates user inputs and expense splits for accuracy.
+ 
+# Screenshots
+Admin Login Page
+<img src="Snapshot_Running_Project/Screenshot 2024-10-20 144740.jpg" alt="Admin Login Page" width="600"/>
+After Login
+<img src="Snapshot_Running_Project/Screenshot 2024-10-20 150747.jpg" alt="After Login" width="600"/>
 
 ## Setup Instructions
 
@@ -40,7 +46,6 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/daily-expenses-sharing-app.git
 cd daily-expenses-sharing-app
-
 
 ## Bonus Features:
 - Authentication and authorization
